@@ -100,7 +100,7 @@ Moreover, I add the color features, it took a while to train (about 7 minutes), 
 Here is all I have tried, and the final one that I select to keep going. All of that, I trained in the data that was provided by Udacity, a total of 17760 images of cars and non cars.
 
 |Color Space|Orientation|Pixels |Block|Spatial|Histogram| Extract Features|Train        | Accuracy| Shape       |
-|:---------:|:---------:|:-----:|:---:|:-----:|:------:||:---------------:|:-----------:|:-------:|:-----------:|
+|:---------:|:---------:|:-----:|:---:|:-----:|:------:|:---------------:|:-----------:|:-------:|:-----------:|
 | RGB		| 9         | (8,8) |(2,2)|    -  |-        |60.62 seconds    |97.83 seconds|0.971    |(17760, 5292)|
 | RGB		| 11        |(16,16)|(2,2)|    -  |-        |51.64 seconds    |5.28 seconds |0.96     |(17760, 1188)|
 | YUV		| 9         |(8,8)  |(2,2)|    -  |-        |72.33 seconds    |31.82 seconds|0.98     |(17760, 5292)|
@@ -171,7 +171,7 @@ Here's a [link to my video result](./project_video_out.mp4)
 
 Youtube [link](https://youtu.be/BtlonPwnouQ)!
 
-Observatio: To compile this video, it took 25 minuts in a total of 1261 frames with a rate of 1.25 second per frame.
+Observatio: To compile this video, it took 25 minutes in a total of 1261 frames with a rate of 1.25 second per frame.
 
 
 #### 2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
