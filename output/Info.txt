@@ -1,0 +1,31 @@
+Car images: 8792
+Not car images: 8968
+189.23 Seconds to extract the features of 8792 images
+237.81 Seconds to extract the features of 8968 images
+106.78 Seconds to train SVC...
+Test Accuracy of SVC =  0.9896
+Total of features: 17760
+Feature shape: (17760, 8460)
+Configuration
+Color Space: RGB
+Is spatial enable? Yes
+Spatial size: (32, 32)
+Is histogram enable? Yes
+Bins of histogram: 32
+Range of histogram: (0, 256)
+Is HOG enable? Yes
+HOG orientation: 9
+HOG pixels per cell: 8
+HOG cells per block: 2
+HOG channel: ALL
+Threshold of car area: 7000
+Quantity of frames to average: 10
+Threshold single heat map: 3
+Threshold average heat map: 11
+
+
+[MoviePy] >>>> Building video project_video_out.mp4
+[MoviePy] Writing video project_video_out.mp4
+100%|█████████▉| 1260/1261 [25:11<00:01,  1.24s/it]
+[MoviePy] Done.
+[MoviePy] >>>> Video ready: project_video_out.mp4
