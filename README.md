@@ -147,7 +147,7 @@ Because of that, I change the windows for two sizes of windows. The first one 12
 
 Here are some examples of my pipeline working.
 
-||
+|image| image|
 |:----------------------:|:------------------:|
 |![alt text][image13]    |![alt text][image14]|
 |![alt text][image15]    |![alt text][image16]|
@@ -168,7 +168,10 @@ The final version was really good. However, contrary to the ideal of a vehicle d
 
 #### 1. Provide a link to your final video output. Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
 Here's a [link to my video result](./project_video_out.mp4)
+
 Youtube [link](https://youtu.be/BtlonPwnouQ)!
+
+Observatio: To compile this video, it took 25 minuts in a total of 1261 frames with a rate of 1.25 second per frame.
 
 
 #### 2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
